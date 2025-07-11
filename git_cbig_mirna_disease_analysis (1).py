@@ -68,7 +68,7 @@ Use the tabs above to navigate between clustering results, similarity networks, 
 # TAB 1: Clustering View
 # --------------
 with tab1:
-    st.header("Clustering Settings")
+    st.header("Disease Clustering")
 
     # User inputs to control number of clusters and clustering method
     n_clusters = st.slider("Number of Clusters", 2, 50, 10)
