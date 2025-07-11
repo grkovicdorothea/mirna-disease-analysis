@@ -54,7 +54,7 @@ In this analysis, we investigate disease-disease relationships based on [Jaccard
 We construct a disease similarity matrix, where each cell represents the Jaccard similarity between a pair of diseases. To explore and interpret these relationships, we apply a combination of dimensionality reduction, clustering, and network analysis techniques:
 - **Dimensionality Reduction:** We use [t-SNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding) to project the high-dimensional similarity space into two dimensions.
 - **Clustering Algorithms:** Techniques such as [K-Means](https://en.wikipedia.org/wiki/K-means_clustering), [Birch](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.Birch.html), [Hierarchical Clustering](https://en.wikipedia.org/wiki/Hierarchical_clustering), [Gaussian Mixture Models](https://en.wikipedia.org/wiki/Mixture_model), [Mean Shift](https://en.wikipedia.org/wiki/Mean_shift), and [Affinity Propagation](https://en.wikipedia.org/wiki/Affinity_propagation) help uncover clusters of related diseases.
-- **[Network Theory](https://en.wikipedia.org/wiki/Network_theory):** We build an interactive [similarity network](https://en.wikipedia.org/wiki/Similarity_network) where nodes represent diseases and edges denote similarity scores.
+- **[Network Theory](https://en.wikipedia.org/wiki/Network_theory):** We build an interactive similarity network where nodes represent diseases and edges denote similarity scores.
 
 This tool enables you to:
 - Perform clustering of diseases using multiple algorithms
